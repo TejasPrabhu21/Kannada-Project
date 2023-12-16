@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="page 1">
+    <section class="hero">
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home" id="navbar__logo">Kannada</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links" id="home-page">HOME</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="page2.html" class="navbar__links" id="gallery-page">GALLERY</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="pagemore.html" class="navbar__links" id="more-page">MORE</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="page3.html" class="navbar__links" id="contact-page">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="message">
+            <div class="text">
+                <h1>KANNADA NAADU</h1>
+                <p>Karnataka is one of the Indian States which has its own greatness,
+                    prestige and heritage.
+                    This land has an ideal situation and is blessed with diverse relief features, flora and fauna,
+                    different types of soil,
+                    river systems, minerals and human resources. It is a prosperous land with its own literature, art
+                    and culture and has
+                    religious, spiritual and historically famous pilgrim centres. Many places in Karnataka are famous
+                    for their world
+                    heritage site and its natural beauty and abundance of wild life.
+                </p>
+                <a href="page2.html" class="button">Click here</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="content">
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Karnataka</h2>
+                <img src="images/Karnataka map.jpg" alt="">
+                <p>The history of Karnataka goes back more than two thousand years ago. Several great empires and
+                    dynasties have ruled over
+                    Karnataka and have contributed greatly to the history, culture and development of Karnataka.
+                </p>
+            </a>
+        </div>
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Festivals</h2>
+                <img src="images/Flag_of_Karnataka,_India.png" alt="">
+                <p>Karnataka is a vibrant state famous for its grand festivals. Many festivals of Karnataka are
+                    conducted in the name of
+                    art, religion, seasons etc Karnataka is also known for its heritage and culture;</p>
+            </a>
+        </div>
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Art & Culture</h2>
+                <img src="images/Karnataka flag.jpg" alt="">
+                <p>The southern state of Karnataka, in India, has a distinct art and culture informed by a long history
+                    of diverse
+                    linguistic and religious ethnicity.</p>
+            </a>
+        </div>
+    </section>
+    <section class="content2">
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Wild Life</h2>
+                <img src="images/asian elephant.jpg" alt="">
+                <p>With the Western Ghats located in the state, the national parks of Karnataka are home to some rare
+                    and exotic wildlife.</p>
+            </a>
+        </div>
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Litrature</h2>
+                <img src="images/Sacred_lotus_Nelumbo_nucifera.jpg" alt="">
+                <p>Kannada belongs to the group of south Indian languages popularly known as the Dravidian family of
+                    languages.Bharatiya
+                    Jnanpith is India's topmost and most prestigious literary award, and out of the 32 years of its life
+                    so far, 7 times it
+                    went to Kannada writers.</p>
+            </a>
+        </div>
+        <div class="info">
+            <a href="pagemore.html">
+                <h2>Food and drink</h2>
+                <img src="images/IndianRoller.jpg" alt="">
+                <p>Karnataka’s cuisine takes influence from its neighbours like Kerala, Andhra Pradesh, and Maharashtra.
+                    However, the
+                    flavours change from region to region</p>
+            </a>
+        </div>
+    </section>
+
+    <footer class="social_media">
+        <h2>All social media links </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim veniam vero repellat alias veritatis sequi!
+        </p>
+        <ul class="media_icons">
+            <li class="icon">
+                <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="icon">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="icon">
+                <a href="https://www.linkedin.com/signup"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="icon">
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            </li>
+        </ul>
+        <div>
+            <p> <i class="fa fa-copyright"></i> Made with <i class="fa fa-heart"></i> by: Tejas, Chethan, Darshan,
+                Karthik, Anirudh</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAC5R3u-61iVWhj6Dm9JUlAOD_JZz0YIVE",
+            authDomain: "kannada-project-e92e4.firebaseapp.com",
+            projectId: "kannada-project-e92e4",
+            storageBucket: "kannada-project-e92e4.appspot.com",
+            messagingSenderId: "592328862820",
+            appId: "1:592328862820:web:90e2cdabc65d9e94ec4371",
+            measurementId: "G-921T6D1HBD"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
